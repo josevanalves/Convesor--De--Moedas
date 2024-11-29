@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+    outline: none;
+}
+   body{
+      background-color: #8a51fc;
+}
+
+    .logo{
+         width: 300px;
+         display: block; 
+         margin:20px auto;    
+     }
+    .caixa-pricipal{
+       width: 375px;
+       background:  #f4f4f4;
+       border-radius: 20px;
+       margin: 0 auto 40PX;
+       padding:44px 24px 23px ;   
+    }
+    label{
+       color: #777777;
+       font-weight: 400px ;
+       font-size: 14px ;
+    }
+    select{
+       background: #ffffff;
+       border: 1px solid #BBBBBB;
+       border-radius: 4px;
+       height: 48px;
+       width: 100%;
+       margin-bottom: 24px;
+       padding-left: 18px;
+       font-weight: 700px;
+       font-size: 16px;
+       color: #000000;
+       cursor: pointer;
+    }
+    input{
+         background: #ffffff;
+         border: 1px solid #BBBBBB;
+         border-radius: 4px;
+         height: 48px;
+         width: 100%;
+         margin-bottom: 24px;
+         padding-left: 18px;
+         font-weight: 700px;
+         font-size: 16px;
+         color: #000000;
+         cursor: pointer;
+    }
+    input::placeholder{
+      color: #000000;
+    }
+     button{
+         background: #772fd3;
+         border-radius: 5px;
+         width: 100%;
+         border: none;
+         height: 48px;
+         color: #ffffff;   
+         cursor: pointer;   
+         font-size: 18px;
+         font-weight: 700px;    
+        
+     }
+     button:hover{      
+          letter-spacing: 1.5px;
+          transition: 0.5s linear; 
+     }
+     
+     button:active{
+      opacity: 0.6;
+     }
+     section{
+         border:1px solid #772fd3;
+         border-radius: 20px;
+         margin-top: 36px;
+         padding: 20px;
+
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+     }
+      .arrow-img {
+          margin: 15px 0;
+      }
+     .currency-box {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 4px;
+     }
+      .currency {
+          color: #000000;
+          font-size: 14px;
+      }
+       .currency-value  .currency-value-to-convert{
+          color: #000000;
+          font-weight: 700px;
+          font-size:20px ;
+       }
