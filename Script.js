@@ -14,7 +14,7 @@
 
 
   if (currencySelect.value == "dolar") {
-    // Se o select  estive slecionado  o  vaor  do dolar, entre aqui
+    // Se o select  estive slecionado  o  valor  do dolar, entre aqui
     currencyValueConverted.innerHTML = new Intl.NumberFormat("en-US", {
       style: "currency",
       currency: "USD",
@@ -23,7 +23,7 @@
 
  
   if (currencySelect.value == "euro") {
-    // Se o select  estive slecionado  o  vaor  do euro , entre aqui
+    // Se o select  estive slecionado  o  valor  do euro , entre aqui
     currencyValueConverted.innerHTML = new Intl.NumberFormat("de-DE", {
       style: "currency",
       currency: "EUR",
