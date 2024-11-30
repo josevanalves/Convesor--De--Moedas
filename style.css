@@ -102,4 +102,56 @@
           color: #000000;
           font-weight: 700px;
           font-size:20px ;
+          
        }
+       @media screen and (max-width: 400px ) {
+        boby{
+            max-width: 100%;
+        }
+
+        .caixa-pricipal{
+            max-width: 85%;
+            padding-bottom: 10px;
+        }
+
+         .logo{
+         width: 35%;
+          
+         }  
+  }
+  @media screen and (max-width: 400px ) {
+    boby{
+        max-width: 100%;
+    }
+
+    .caixa-pricipal{
+        max-width: 85%;
+        padding-bottom: 10px;
+    }
+
+     .logo{
+     width: 35%;
+      
+     }
+
+   }
+   @media screen and (max-width: 320px ) {
+   
+    body{
+      max-width: 100%;
+  
+    }
+
+    .caixa-pricipal{
+    max-width:40%;
+    padding-bottom: 10px;
+    }
+
+
+     .logo{
+     width:20%;
+      height: 20%;
+     }  
+ 
+}
+   
